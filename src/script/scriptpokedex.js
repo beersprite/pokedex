@@ -1,4 +1,3 @@
-
 const pokeNome = document.getElementById("pokeNome");
 const pokeImagem = document.getElementById("pokeImagem");
 const pokeAltura = document.getElementById("pokeAltura");
@@ -9,9 +8,8 @@ const escondeDados = () => {
     pokeImagem.classList.toggle("esconder");
     pokeAltura.classList.toggle("esconder");
     pokePeso.classList.toggle("esconder");
-
 }
-console.log(pokeNome)
+//console.log(pokeNome)
 
 var carregaPagina = (titulo) => {
     if (titulo.textContent === "Nome") {
@@ -60,6 +58,6 @@ const dadosPokemon = (pokemon) => {
     pokePeso.innerHTML = `Peso: ${(pokemon.weight)/10} kg`;
     pokeImagem.src = pokemon.sprites.front_default;
 
-    console.log(pokemon);
+    //console.log(pokemon);
 
 }
