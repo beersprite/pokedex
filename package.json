@@ -1,7 +1,7 @@
 {
-  "name": "modern-web-app-template",
+  "name": "pokedex",
   "version": "0.1.0",
-  "homepage": "https://[your-github-username].github.io/[your-repository-name]/",
+  "homepage": "https://beersprite.github.io/pokedex/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
